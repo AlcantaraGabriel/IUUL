@@ -375,28 +375,6 @@ hr.soften {
 }
 
 
-/* Popover docs
--------------------------------------------------- */
-.popover-well {
-  min-height: 160px;
-}
-.popover-well .popover {
-  display: block;
-}
-.popover-well .popover-wrapper {
-  width: 50%;
-  height: 160px;
-  float: left;
-  margin-left: 55px;
-  position: relative;
-}
-.popover-well .popover-menu-wrapper {
-  height: 80px;
-}
-.large-bird {
-  margin: 5px 0 0 310px;
-  opacity: .1;
-}
 
 
 /* Download page
@@ -542,16 +520,6 @@ h2 + .row {
   height: 200px;
   overflow: auto;
   position: relative;
-}
-
-/* Remove bottom margin on example forms in wells */
-form.well {
-  padding: 14px;
-}
-
-/* Tighten up spacing */
-.well hr {
-  margin: 18px 0;
 }
 
 /* Fake the :focus state to demo it */
@@ -721,9 +689,6 @@ form.well {
   /* Popovers */
   .large-bird {
     display: none;
-  }
-  .popover-well .popover-wrapper {
-    margin-left: 0;
   }
 
   /* Space out the show-grid examples */
